@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blind Maze Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="landingPage">
+        <h2>Blind Maze Game</h2>
+        <input type="text" id="username" placeholder="username" autocomplete="off">
+        <button id="btnPlay" disabled>Play</button>
+        <button id="btnTutorial">Tutorial</button>
+        <button id="btnLeaderboard">Leaderboard</button>
+        <p>Copyright &copy; By <a href="https://github.com/farelpunaa">Farel Puna</a></p>
+    </div>
+
+    <div id="gamePage">
+        <div id="gameInfo">
+            <span id="waktu">Timer</span>
+            <span id="nyawa">Lives</span>
+            <span id="stage">Stage</span>
+            <span id="kesempatan">Chance</span>
+        </div>
+        <div id="maze"></div>
+        <div id="gameBtn">
+            <button id="btnHint">Hint Wall</button>
+            <button id="btnKeluarGame">Exit</button>
+        </div>
+    </div>
+
+    <div id="gameoverPage">
+            <h2>Game Over!</h2>
+            <div id="gContent">
+                <span id="usernameDisplay"></span>
+                <span id="score"></span>
+            </div>
+            <button id="keluarGameOver">Exit</button>
+    </div>
+
+    <div id="nextPage">
+            <h2>Congratulation</h2>
+            <div id="gContent">
+                <h5 id="usernameDisplay"></h5>
+                <span id="score"></span>
+            </div>
+            <button id="nextStage">Next</button>
+            <button id="keluarNext">Exit</button>
+    </div>
+
+    <div id="tutorialModal">
+        <div id="tutorialContent">
+            <div id="tutorialHeader">
+                <h2>Tutorial</h2>
+            </div>
+            <div id="tutorialBody">
+                <ul>
+                    <li>1. Masukan Username dan Klik Play</li>
+                    <li>2. Ingat dan Hindari Rintangan</li>
+                    <li>3. Gunakan Kesempatan Untuk Melihat Rintangan</li>
+                    <li>4. Capailah Finish untuk Melanjutkan Stage</li>
+                    <li>5. Capai Top Score dengan Melanjutkan Stage Sebanyak-banyaknya</li>
+                </ul>
+            </div>
+            <div id="tutorialFooter">
+                <button id="closeModal">x</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="leaderboardModal">
+        <div id="leaderboardContent">
+            <div id="leaderboardHeader">
+                <h2>Leaderboard</h2>
+            </div>
+            <div id="leaderboardBody">
+                <ul id="list">
+                    
+                </ul>
+            </div>
+            <div id="leaderboardFooter">
+                <button id="closeModalL">x</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
