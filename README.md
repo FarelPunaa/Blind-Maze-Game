@@ -13,13 +13,12 @@ Game tantangan untuk menghafal posisi rintangan dan berhasil melewati jalur menu
 
 ![Preview Game](home.jpeg)
 ![Preview Game](leaderboard.jpeg)
-![Preview Game](game over.jpeg)
+![Preview Game](game-over.jpeg)
 
 ## 🚀 Teknologi yang Digunakan
 
 - [CSS]
 - [JavaScript]
-- Custom CSS
 
 ## 📁 Struktur Project
 
